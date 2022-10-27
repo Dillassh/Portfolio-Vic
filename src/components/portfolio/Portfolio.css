@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
+    padding-bottom: 3rem;
 }
 
 .portfolio__item {
@@ -20,6 +21,7 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    height: 23vh;
 }
 
 .portfolio__item h3 {
@@ -28,6 +30,7 @@
 
 .portfolio__item-cta {
     display: flex;
+    justify-content: space-between;
     gap: 1rem; 
     margin-bottom: 1rem ;
 }
@@ -44,4 +47,11 @@
     grid-template-columns: 1fr;
     gap: 1rem;
 }
+}
+
+.show-btn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 3rem;
 }
