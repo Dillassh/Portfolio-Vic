@@ -21,7 +21,11 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
-    height: 23vh;
+    height: 25vh;
+}
+
+.portfolio__item-image > img {
+    height: 25vh;
 }
 
 .portfolio__item h3 {
@@ -40,13 +44,18 @@
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
    }
+   .portfolio__item-image {
+       height: 18vh;
+   }
 }
 
 @media (max-width: 600px) {
 .portfolio__container {
     grid-template-columns: 1fr;
     gap: 1rem;
+
 }
+
 }
 
 .show-btn {
