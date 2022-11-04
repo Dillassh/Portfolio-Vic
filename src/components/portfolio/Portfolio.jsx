@@ -9,10 +9,18 @@ import IMG6 from '../../assets/portfolio6.jpg'
 import IMG7 from '../../assets/portfolio7.jpg'
 import IMG8 from '../../assets/portfolio8.jpg'
 import IMG9 from '../../assets/portfolio9.jpg'
+import IMG10 from '../../assets/portfolio10.jpg'
 import { useState } from 'react'
 
 
 const data = [
+  {
+    id: 10,
+    image: IMG10,
+    title:'refreshyourhouse.ro',
+    github: "https://github.com/Dillassh/house-refresh",
+    demo: "https://refreshyourhouse.ro/"
+  },
   {
     id: 1,
     image: IMG1,
@@ -76,6 +84,7 @@ const data = [
     github: "https://github.com/Dillassh/number-guess",
     demo: "https://nr-guess.netlify.app/"
   }
+  
 ]
 
 const Portfolio = () => {
