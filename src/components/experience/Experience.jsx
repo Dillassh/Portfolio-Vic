@@ -14,6 +14,16 @@ const Experience = () => {
             <div className="experience__content">
               <article className="experience__details">
                 <BsPatchCheckFill className='experience__details-icon'/>
+                <div className="experience__p"><h4>React JS</h4>
+                <small className='text-light'>Experienced</small></div>
+              </article>
+              <article className="experience__details">
+                <BsPatchCheckFill className='experience__details-icon'/>
+                <div className="experience__p"><h4>JavaScript</h4>
+                <small className='text-light'>Intermediate</small></div>
+              </article>
+              <article className="experience__details">
+                <BsPatchCheckFill className='experience__details-icon'/>
                 <div className="experience__p"><h4>HTML</h4>
                 <small className='text-light'>Experienced</small></div>
               </article>
@@ -24,23 +34,14 @@ const Experience = () => {
               </article>
               <article className="experience__details">
                 <BsPatchCheckFill className='experience__details-icon'/>
-                <div className="experience__p"><h4>JavaScript</h4>
-                <small className='text-light'>Intermediate</small></div>
-              </article>
-              <article className="experience__details">
-                <BsPatchCheckFill className='experience__details-icon'/>
                 <div className="experience__p"><h4>Bootstrap</h4>
                 <small className='text-light'>Experienced</small></div>
               </article>
-              <article className="experience__details">
-                <BsPatchCheckFill className='experience__details-icon'/>
-                <div className="experience__p"><h4>React JS</h4>
-                <small className='text-light'>Experienced</small></div>
-              </article>
+              
               <article className="experience__details">
                 <BsPatchCheckFill className='experience__details-icon'/>
                 <div className="experience__p"><h4>React Native</h4>
-                <small className='text-light'>Beginner</small></div>
+                <small className='text-light'>Intermediate</small></div>
               </article>
             </div>
         </div>
